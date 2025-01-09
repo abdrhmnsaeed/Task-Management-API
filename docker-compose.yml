@@ -8,11 +8,11 @@ services:
       - "80:80"
     environment:
       - DB_CONNECTION=mysql
-      - DB_HOST=db
+      - DB_HOST=	sql303.infinityfree.com
       - DB_PORT=3306
-      - DB_DATABASE=task_manager
-      - DB_USERNAME=root
-      - DB_PASSWORD=
+      - DB_DATABASE=if0_38073827_task_manager
+      - DB_USERNAME=if0_38073827
+      - DB_PASSWORD=bUChRZuc7VzpFtx
     depends_on:
       - db
 
