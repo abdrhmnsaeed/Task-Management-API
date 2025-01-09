@@ -29,7 +29,7 @@ ENV APP_DEBUG=false
 ENV APP_KEY=your-app-key
 
 # Expose the port that the Laravel app will run on
-EXPOSE 80
+EXPOSE 10000
 
-# Start the PHP-FPM server
-CMD ["php-fpm"]
+# Start the Laravel development server
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=10000"]
