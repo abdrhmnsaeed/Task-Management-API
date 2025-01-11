@@ -8,11 +8,11 @@ services:
       - "80:80"
     environment:
       - DB_CONNECTION=mysql
-      - DB_HOST=mysql.smtacademy.org
+      - DB_HOST=bhnqbqmw4ym3cnzcnoel-mysql.services.clever-cloud.com
       - DB_PORT=3306
-      - DB_DATABASE=smtacade_task
-      - DB_USERNAME=smtacade_task
-      - DB_PASSWORD="Ibnsaeed01
+      - DB_DATABASE=bhnqbqmw4ym3cnzcnoel
+      - DB_USERNAME=uf79aqwxzq4tbhib
+      - DB_PASSWORD=djvxMUjDLo6AxnSHXnxp
     depends_on:
       - db
 
